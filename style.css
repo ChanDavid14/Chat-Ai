@@ -1,0 +1,197 @@
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #fff;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #9e9e9e;
+  }
+  
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    background-color: #444446;
+  }
+  
+  
+  * {
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+  }
+  
+  body {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      background-image: url(https://www.creativefabrica.com/wp-content/uploads/2020/05/01/Background-with-forest-illustration-Graphics-4005399-1.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;     
+  }
+  
+  .container {
+      width: 600px;
+      margin: 10px auto 10px;
+      height: 90vh;
+  }
+  
+  .title {
+      font-size: 30px;
+      font-weight: bold;
+      font-family: "Courier New", Monospace;
+      padding-bottom: 5px;
+      color: #1d1d1d;
+      text-align: center;
+      transition: .5s;
+      margin-left: 30%;
+  }
+
+  .title:hover{
+    color: rgb(249, 249, 249);
+  }
+  
+  .chat {
+      height: 85%;
+      background: white;
+      border: #000000;
+      border-radius: 5px;
+      box-shadow: 0 0 5px 5px rgb(116, 116, 116) ;
+      transition: .2s;
+  }
+
+  .chat .party {
+      font-weight: bold;
+  }
+  
+  .chat .you {
+      color: #0b4ee9!important;
+      overflow: hidden;
+      font-size: 15px;
+      margin-left: 5px;
+      margin-top: 20px; 
+  }
+  
+  .chat .other {
+      color: #d60303!important;
+      font-size: 15px;
+      margin-left: 5px;
+      margin-top: 20px; 
+  }
+  .busy {
+      position: absolute;
+      padding: 3px 0;
+      color: #3c3a3a;
+      display: none;
+      font-size: 11px;
+  }
+  
+  .input {
+      margin-top: 20px;
+      
+  }
+  
+  .input input {
+      vertical-align: top;
+      float: left;
+      border: 1px solid #ccc;
+      padding: 5px;
+      width: 450px;
+      margin: 0;
+      border-radius: 5px;
+      background: #ffffff;
+      color: #141414;
+      
+  }
+  
+  .input a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      float: right;
+      font-weight: bold;
+      border: 1px solid #323131;
+      background-color: #00c6fb;
+      padding: 7px 35px;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      border-radius: 8px;
+      color: #fffdfd;
+      
+  }
+  
+  .input a:hover {
+      background-color: #88d3ce;
+      transition: 0.6s; 
+      cursor: pointer;
+      color: #fff4f4;
+  }
+
+  .text{
+      color: #000000;
+      font-size: 15px;
+  }
+  .social{
+    margin-left: 10%;
+    z-index: 2;
+    margin-top: 80px;
+    padding-bottom: 10px;
+}
+  .social a{
+    display: inline-block;
+    color: white;
+    margin-right: 25px;
+    font-size: 24px;
+}
+
+.social a:hover{
+    color: greenyellow;
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+.nav-right{
+    display:block;
+    float: right;
+}
+
+ .nav-right .search-box{
+    display: flex;
+    border: 1px solid #333;
+    width: 190%;
+    margin-left: 250%;
+    
+}
+
+ .nav-right .search-box input{
+    width: 80%;  
+    border: none;
+    outline: none; 
+    padding: 10px 0;
+    padding-left: 2%;
+    
+}
+
+.nav-right .search-box a {
+    width: 20%;
+    padding: 10px 0;
+    border-left: 1px solid #333;
+    text-align: center;
+    background-color: greenyellow;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.nav-right .search-box a:hover{
+    color:#88d3ce ;
+}
+
+.creator{
+    color: white;
+    display: block;
+    font-weight:italic;
+    font-family: "Courier New", Monospace;
+    padding-bottom: 5px;
+    text-align: left;   
+}
